@@ -1,0 +1,10 @@
+@mixin mobile {
+   @media(min-width:$mobile){
+     @content
+   }
+}
+@mixin table {
+   @media(min-width:$table){
+     @content
+   }
+}
